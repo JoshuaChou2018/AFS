@@ -4,9 +4,7 @@ This repository contains the implementation of AFS from:
 
 **Juexiao Zhou, et al. "Audit to Forget: A Unified Method to Revoke Patients’ Private Data in Intelligent Healthcare"**
 
-This manuscript is under review and the complete codes will be released soon.
-
-**For early access to the code, please email juexiao.zhou@kaust.edu.sa with a reason. Once approved, a copy of the code will be provided.** 
+This paper is accepted by _Nature Communications_.
 
 ![fig1](https://cdn.jsdelivr.net/gh/JoshuaChou2018/oss@main/uPic/fig1.Uy4yJv.kWW126.png)
 
@@ -15,8 +13,6 @@ This manuscript is under review and the complete codes will be released soon.
 ```
 conda env create --file environment.yaml
 ```
-
-
 
 # Usage
 
@@ -292,4 +288,21 @@ python afs.py forget \
     --train_batch_size 4 \
     --lambda_risk 1
 ```
+
+
+# Citation
+
+If you find our work useful, please cite our paper:
+
+```shell
+@article{zhou2023audit,
+  title={Audit to Forget: A Unified Method to Revoke Patients' Private Data in Intelligent Healthcare},
+  author={Zhou, Juexiao and Li, Haoyang and Liao, Xingyu and Zhang, Bin and He, Wenjia and Li, Zhongxiao and Zhou, Longxi and Gao, Xin},
+  journal={bioRxiv},
+  pages={2023--02},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
+
 
