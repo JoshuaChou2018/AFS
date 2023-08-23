@@ -62,7 +62,7 @@ def train(snet, tnet, criterionCls, criterionKD, trainDataLoader, optimizer, arg
                 #t, pv, EMA_res, risk_score = Audit.api(args, model, queryDataset, member_gt, calDataset)
                 #risk_loss = risk_score
 
-                risk_loss = torch.tensor(1.0).to(args.device) / risk_loss
+                risk_loss = torch.tensor(1.0).to(args.device) / risk_loss # same performance
                 #risk_loss = risk_loss
                 risk_losses.update(risk_loss.item(), _X.size(0))
                 loss = loss + risk_loss*torch.tensor(args.lambda_risk).to(args.device)
