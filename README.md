@@ -14,6 +14,8 @@ This paper is accepted by _Nature Communications_.
 conda env create --file environment.yaml
 ```
 
+The installation process takes about 10 minutes.
+
 # Usage
 
 ## Files Description
@@ -304,5 +306,4 @@ If you find our work useful, please cite our paper:
   publisher={Cold Spring Harbor Laboratory}
 }
 ```
-
 
