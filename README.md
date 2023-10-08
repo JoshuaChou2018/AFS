@@ -296,7 +296,4 @@ python afs.py forget \
 
 If you find our work useful, please cite our paper:
 
-```shell
 Zhou, J., Li, H., Liao, X. et al. A unified method to revoke the private data of patients in intelligent healthcare with audit to forget. Nat Commun 14, 6255 (2023). https://doi.org/10.1038/s41467-023-41703-x
-```
-
