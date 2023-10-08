@@ -2,9 +2,9 @@
 
 This repository contains the implementation of AFS from:
 
-**Juexiao Zhou, et al. "Audit to Forget: A Unified Method to Revoke Patients’ Private Data in Intelligent Healthcare"**
+**Juexiao Zhou, et al. "A unified method to revoke the private data of patients in intelligent healthcare with audit to forget"**
 
-This paper is accepted by _Nature Communications_.
+![image-20231008122424080](https://cdn.jsdelivr.net/gh/JoshuaChou2018/oss@main/uPic/nQrPA4.image-20231008122424080.png)
 
 ![fig1](https://cdn.jsdelivr.net/gh/JoshuaChou2018/oss@main/uPic/fig1.Uy4yJv.kWW126.png)
 
@@ -297,13 +297,6 @@ python afs.py forget \
 If you find our work useful, please cite our paper:
 
 ```shell
-@article{zhou2023audit,
-  title={Audit to Forget: A Unified Method to Revoke Patients' Private Data in Intelligent Healthcare},
-  author={Zhou, Juexiao and Li, Haoyang and Liao, Xingyu and Zhang, Bin and He, Wenjia and Li, Zhongxiao and Zhou, Longxi and Gao, Xin},
-  journal={bioRxiv},
-  pages={2023--02},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory}
-}
+Zhou, J., Li, H., Liao, X. et al. A unified method to revoke the private data of patients in intelligent healthcare with audit to forget. Nat Commun 14, 6255 (2023). https://doi.org/10.1038/s41467-023-41703-x
 ```
 
